@@ -1,0 +1,49 @@
+﻿<head>
+  <meta charset="utf-8" />
+  <title>
+   
+  </title>
+  <script src="../../../scripts/jquery.js"></script>
+  <script src="../../../scripts/bootstrap.js"></script>
+  <link href="../../../stylesheets/bootstrap.css" rel="stylesheet" />
+
+
+
+  <style type="text/css">
+    body {
+    padding-top: 100px;
+    }
+
+    .form-container {
+    width: 400px;
+    margin: auto;
+    }
+
+    .credits {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 20px;
+    }
+  </style>
+
+
+</head>
+<body>
+  <div class="form-container">
+    <h2>Register</h2>
+    <form method="post">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" class="form-control"  required="" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="form-control" required="" />
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Register</button>
+        <a href="/login" class="btn btn-link">Cancel</a>
+      </div>
+    </form>
+  </div>
+</body>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+    
+<script src="../../scripts/jquery.js"></script>
+<script src="../../scripts/bootstrap.js"></script>
+<link href="../../stylesheets/bootstrap.css" rel="stylesheet" />
+<script src="../../scripts/jquery1.10.0-ui-min.js"></script>
+<script src="../../scripts/navbar.js"></script>
+<link href="../../stylesheets/jquery-ui.css" rel="stylesheet" />
+<link href="../../stylesheets/jquery-ui-git.css" rel="stylesheet" />
+<link href="../../stylesheets/verticalnavbar.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+    <div class="row col-sm-12 col-md-12 col-lg-12" style="height:0% ">
+        <nav class="navbar navbar-inverse" style="height: 7%">
+            <div class="container-fluid col-md-1 col-md-offset-11">
+                <img height="32" width="32" alt="" id="userimg" class="img-circle" style="margin-left: 2px">
+                <!-- 		<p id="uname" style="color: white"></p> -->
+            </div>
+        </nav>
+    </div>
+
+    <nav class="navbar navbar-inverse sidebar" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!-- <img height="50" width="50" alt="" id="userimg" class="img-circle" style="margin-left: 2px"> -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="">Calendar<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></span></a></li>
+                    <li><a href="">Meeting<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                    <li><a href="">Survey<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+                    <li><a href="">Task<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-inbox"></span></a></li>
+                    <li><a href="">Documents<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hdd"></span></a></li>
+                    <li><a href="">Data Vault<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-folder-open"></span></a></li>
+                    <li><a href="">Reports<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-menu-hamburger"></span></a></li>
+                    <li ><a href="">Members<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                    <li><a href="">Entities<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                    <li><a href="">Register User<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                    <li><a href="/login">Log Out<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header role="banner">
+        <div class="row col-sm-10 col-md-10 col-lg-10" style="height:0% ">
+            <nav class="navbar navbar-inverse" style="height: 7%">
+                <div class="container-fluid col-md-1 col-md-offset-11">
+                    <img height="32" width="32" alt="" id="userimg" class="img-circle" style="margin-left: 2px">
+        
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main ui-view style="margin-top:10px">
+	
+    </main>
+    
+
+</body>
+</html>
